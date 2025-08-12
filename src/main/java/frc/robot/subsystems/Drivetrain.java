@@ -218,6 +218,7 @@ public class Drivetrain extends SubsystemBase {
     this.rearLeft.setDesiredState(new SwerveModuleState(0, Rotation2d.fromDegrees(-45)));
     this.rearRight.setDesiredState(new SwerveModuleState(0, Rotation2d.fromDegrees(45)));
   }
+
   // Returns the robot's heading in degrees, from -180 to 180
   private Rotation2d getHeading() {
     return Rotation2d.fromDegrees(
